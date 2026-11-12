@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+  <defs>
+    <linearGradient id="vg-grad" x1="40" y1="28" x2="216" y2="228" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="55%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#6366F1" />
+    </linearGradient>
+    <linearGradient id="vg-inner" x1="64" y1="52" x2="192" y2="204" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E293B" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield with ~10% safe margin -->
+  <path
+    d="M128 26L46 60V122C46 173.4 81.1 218.5 128 230C174.9 218.5 210 173.4 210 122V60L128 26Z"
+    fill="url(#vg-inner)"
+    stroke="url(#vg-grad)"
+    stroke-width="10"
+    stroke-linejoin="round"
+  />
+  <!-- Inner Radar / Guard Grid Ring -->
+  <circle cx="128" cy="126" r="46" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="4" stroke-dasharray="6 6" />
+  <!-- Check / Terminal Chevron V + Guard Spark -->
+  <path
+    d="M94 114L116 146L164 96"
+    stroke="#10B981"
+    stroke-width="14"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <circle cx="164" cy="96" r="6" fill="#34D399" />
+</svg>

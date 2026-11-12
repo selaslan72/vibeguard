@@ -1,0 +1,2 @@
+# Ignore synthetic vulnerability test cases used to validate VibeGuard itself
+tests/test_security_scan.py

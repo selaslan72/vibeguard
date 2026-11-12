@@ -1,0 +1,18 @@
+{
+  "name": "vibeguard",
+  "displayName": "VibeGuard Security Auditor",
+  "version": "1.0.0",
+  "description": "AI security and internal audit assistant for vibe-coded projects. Detects vulnerabilities, leaked secrets, access control flaws, BaaS misconfigurations, and internal security gaps in a structured table.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Run a full security and internal audit on this project and output all findings in a table",
+    "Audit this app for leaked secrets, missing auth, IDOR, and Supabase/Firebase RLS issues",
+    "Review internal security controls, logging hygiene, AI prompt safety, and CI/CD configs"
+  ],
+  "author": {
+    "name": "selaslan72",
+    "url": "https://github.com/selaslan72"
+  },
+  "homepage": "https://github.com/selaslan72/vibeguard",
+  "repository": "https://github.com/selaslan72/vibeguard"
+}
